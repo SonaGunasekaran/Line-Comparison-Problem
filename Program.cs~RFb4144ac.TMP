@@ -8,24 +8,23 @@ namespace LineComparision
         
         static void Main(string[] args)
         {
-            // calling a methods
+            // calling the method
 
             double result2 = Program.line1Length(3,4,4,3);
             double result1 = Program.line2Length(3,4,4,3);
-           // check whether the two lines are equal or not
+
 
             if (result1.Equals(result1))
             {
-                Console.WriteLine("The lines are Equal");
+                Console.WriteLine("Two lines are not Equal");
             }
             else
             {
-                Console.WriteLine("The lines are not Equal");
+                Console.WriteLine("Two lines are Equal");
             }
-            
+            Console.Read();
 
         }
-
          static double line1Length(int x1, int y1, int x2, int y2)
         {
            double result2 = Program.length(3,4,4,3);
@@ -38,7 +37,7 @@ namespace LineComparision
             return result1;
         }
 
-        //Calculating the length of the two lines
+        // Method for calculating length
          static double length(int x1, int y1, int x2, int y2)
         {
             //Formula for calculating length
