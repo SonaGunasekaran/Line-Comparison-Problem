@@ -1,0 +1,13 @@
+C:\Users\Sona G\source\repos\LineComparision\LineComparision\bin\Debug\netcoreapp3.1\LineComparision.exe
+C:\Users\Sona G\source\repos\LineComparision\LineComparision\bin\Debug\netcoreapp3.1\LineComparision.deps.json
+C:\Users\Sona G\source\repos\LineComparision\LineComparision\bin\Debug\netcoreapp3.1\LineComparision.runtimeconfig.json
+C:\Users\Sona G\source\repos\LineComparision\LineComparision\bin\Debug\netcoreapp3.1\LineComparision.runtimeconfig.dev.json
+C:\Users\Sona G\source\repos\LineComparision\LineComparision\bin\Debug\netcoreapp3.1\LineComparision.dll
+C:\Users\Sona G\source\repos\LineComparision\LineComparision\bin\Debug\netcoreapp3.1\LineComparision.pdb
+C:\Users\Sona G\source\repos\LineComparision\LineComparision\obj\Debug\netcoreapp3.1\LineComparision.csproj.AssemblyReference.cache
+C:\Users\Sona G\source\repos\LineComparision\LineComparision\obj\Debug\netcoreapp3.1\LineComparision.AssemblyInfoInputs.cache
+C:\Users\Sona G\source\repos\LineComparision\LineComparision\obj\Debug\netcoreapp3.1\LineComparision.AssemblyInfo.cs
+C:\Users\Sona G\source\repos\LineComparision\LineComparision\obj\Debug\netcoreapp3.1\LineComparision.csproj.CoreCompileInputs.cache
+C:\Users\Sona G\source\repos\LineComparision\LineComparision\obj\Debug\netcoreapp3.1\LineComparision.dll
+C:\Users\Sona G\source\repos\LineComparision\LineComparision\obj\Debug\netcoreapp3.1\LineComparision.pdb
+C:\Users\Sona G\source\repos\LineComparision\LineComparision\obj\Debug\netcoreapp3.1\LineComparision.genruntimeconfig.cache
