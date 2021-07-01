@@ -5,18 +5,31 @@ namespace LineComparision
     class Program
     {
         
-        
-        static void Main(string[] args)
+       static void Main(string[] args)
         {
+            //genertaing a random valus using random method
+            Random random = new Random();
             
-            // calling a methods
-
-            double result2 = Program.line1Length(5,5,4,3);
-            double result1 = Program.line2Length(4,4,4,3);
-            // Comparing the Two lines using CompareTo method
-            int compare = result1.CompareTo(result2);
             int equal = 0;
 
+            int[] x1 = new int[2];
+            int[] y1 = new int[2];
+            int[] x2 = new int[2];
+            int[] y2 = new int[2];
+            
+            //calling a Next() method
+            for (int i = 0; i <= 1; i++)
+            {
+                x1[i] = random.Next(0, 10);
+                y1[i] = random.Next(0, 10);
+                x2[i] = random.Next(0, 10);
+                y2[i] = random.Next(0, 10);
+            }
+
+            // calling the Length Method()
+            double LineOneLength = Program.length(x1[0], y1[0], x2[0], y2[0]);
+            double LineTwoLength = Program.length(x1[1], y1[1], x2[1], y2[1]);
+            int compare = LineOneLength.CompareTo(LineTwoLength);
 
             if (compare>equal)
             {
@@ -34,19 +47,7 @@ namespace LineComparision
 
         }
                
-         static double line1Length(int x1, int y1, int x2, int y2)
-        {
-           double result2 = Program.length(5,5,4,3);
-            return result2;
-
-        }
-         static double line2Length(int x1, int y1, int x2, int y2)
-        {
-            double result1=Program.length(4,4,4,3);
-            return result1;
-        }
-
-        //Calculating the length of the two lines
+       //Calculating the length of the two lines
          static double length(int x1, int y1, int x2, int y2)
         {
             //Formula for calculating length
